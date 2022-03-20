@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Basic Table St ructure</h1>
+
+    <table>
+        <tr>
+            <td>15</td>
+            <td>15</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>60</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>60</td>
+            <td>90</td>
+            <td>90</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>Table Headings</h1>
+    <table border="2">
+        <tr>
+            <th></th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+            <th scope="row">Tickets sold:</th>
+            <td>120</td>
+            <td>135</td>
+        </tr>
+        <tr>
+            <th scope="row">Total sales:</th>
+            <td>$600</td>
+            <td>$675</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h1> Spanning Columns</h1>
+
+    <table border="2" bgcolor="#efefef">
+        <tr>
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home Ec</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h1> Spanning Rows</h1>
+
+    <table border="2" bgcolor="#efefef">
+        <tr>
+            <th></th>
+            <th>ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+        </tr>
+        <tr>
+            <th>6pm - 7pm</th>
+            <td rowspan="2">Movie</td>
+            <td>Comedy</td>
+            <td>News</td>
+        </tr>
+        <tr>
+            <th>7pm - 8pm</th>
+            <td>Sport</td>
+            <td>Current Affairs</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h1> Width & Spacing </h1>
+
+    <table border="2" bgcolor="#efefef" width="400" cellpadding="10" cellspacing="5">
+        <tr>
+            <th width="150"></th>
+            <th>Withdrawn</th>
+            <th>Credit</th>
+            <th width="150">Balance</th>
+        </tr>
+        <tr>
+            <th>January</th>
+            <td>250.00</td>
+            <td>660.50</td>
+            <td>410.50</td>
+        </tr>
+        <tr>
+            <th>February</th>
+            <td>135.55</td>
+            <td>895.20</td>
+            <td>1170.15</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1> Border & Background </h1>
+
+    <table border="2" bgcolor="#efefef">
+        <tr>
+            <th width="150"></th>
+            <th>Withdrawn</th>
+            <th>Credit</th>
+            <th width="150" bgcolor="#cccccc">Balance</th>
+        </tr>
+        <tr>
+            <th>January</th>
+            <td>250.00</td>
+            <td>660.50</td>
+            <td bgcolor="#cccccc">410.50</td>
+        </tr>
+        <tr>
+            <th>February</th>
+            <td>135.55</td>
+            <td>895.20</td>
+            <td bgcolor="#cccccc">1170.15</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h1>Poem in a Table </h1>
+    <table border="2" cellpadding="10" cellspacing="5" style="width:50%"> 
+        <tr style="color:whitesmoke" style="font-weight: 400;"> 
+            
+        <th colspan="3" bgcolor="#164773">Fire and Ice</th>
+      </tr>
+        <tr> 
+        <th colspan="3" bgcolor="#cccccc">Some say the world will end in fire,
+            Some say in ice.</th>
+      </tr>
+        <tr>
+            <td valign="top">From what I've tasted of 
+                desire I hold with those who favor fire.</td>
+
+            <td valign="top">But if it had to perish twice, 
+                I think I know enough of 
+                hate To say that for destruction 
+                ice Is also great And would suffice.
+                Robert Frost</td>
+            <td><img src="./ice-fire.jpg " width="300px" height="500px"></td>
+        </tr>
+    </table>
+    
+    
+
+</body>
+
+</html>
